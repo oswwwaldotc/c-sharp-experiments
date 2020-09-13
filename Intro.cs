@@ -1,2 +1,8 @@
-// Mmmm, that´s it?
-Console.WriteLine("Hello world!");
+using System;
+
+namespace Intro {
+    class Program {
+        static void Main(string[] args) {
+        }
+    }
+}
