@@ -1,4 +1,4 @@
-# C# just for fun! :purple_circle:
+# .NET + C# :purple_circle:
 
 Aternative to Java okey?
 
