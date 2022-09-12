@@ -20,10 +20,7 @@ namespace MyProject
 
             Console.WriteLine(c);
 
-            /*
-             * Go to a new repository []
-             * the main reason is the differences to create a project from commands versus on the IDE Visual Studio.
-             */
+            // Continue this
 
         }
     }
