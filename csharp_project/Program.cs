@@ -1,4 +1,6 @@
-﻿namespace MyProject
+﻿using System;
+
+namespace MyProject
 {
     class Program
     {
@@ -14,7 +16,9 @@
             bool state_ = true;
 
             //Placeholder
-            Console.WriteLine("value: {0} value: {1} value float {2}", numero, short_number, n_float);
+            Console.WriteLine("value: {0} value: {1} value float: {2} value bool: {3} ", numero, short_number, n_float, state_);
+
+            Console.WriteLine(c);
 
             /*
              * Go to a new repository []
