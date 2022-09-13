@@ -1,4 +1,6 @@
-﻿namespace MyProject
+﻿using csharp_project;
+
+namespace MyProject
 {
     class Program
     {
@@ -6,10 +8,35 @@
 
         static void Main(string[] args)
         {
-            //int numero = 10 * 5;
-            //string numero = Console.ReadLine();
-            Console.WriteLine("Do While - exercise");
-            int numero = int.Parse(Console.ReadLine());
+            //Static
+            Account.Bank = "Old Bank";
+            Account.UpdateBank("New Bank");
+            Console.WriteLine(Account.Bank);
+
+            //Property
+            Account account_mock = new Account();
+            account_mock.Price = -5;
+            Console.WriteLine("Account mock Price:{0}", account_mock.Price);
+
+            //Constructors 
+            Account account_01 = new Account("A100","Red", 100m);
+            account_01.MoreBucks(70);
+            Console.WriteLine("\nAccount 01:{0}   User:{1}   Price:{2}", account_01.Number_Account, account_01.Name_Account, account_01.Price);
+
+            Account account_02 = new Account("B200", "Blue", 250m);
+            account_02.LessBucks(20);
+            //Override the method
+            Console.WriteLine(account_02.ToString());
+ 
+            //Call from another class
+            Rectangle rectangle_ = new Rectangle();
+            Console.WriteLine("\nRectangle 01: {0}", rectangle_.CalculateArea(4, 5));
+
+            Rectangle rectangle_02 = new Rectangle { x_base = 15, y_height = 10 };
+            Console.WriteLine("Rectangle 02: {0}", rectangle_02);
+
+            //int numero = int.Parse(Console.ReadLine());
+            int numero = 10;
 
             /*int iterator = 1;
             int k = 1;
