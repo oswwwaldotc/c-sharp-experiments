@@ -33,7 +33,13 @@ namespace MyProject
             Console.WriteLine("\nRectangle 01: {0}", rectangle_.CalculateArea(4, 5));
 
             Rectangle rectangle_02 = new Rectangle { x_base = 15, y_height = 10 };
-            Console.WriteLine("Rectangle 02: {0}", rectangle_02);
+            Console.WriteLine("Rectangle 02: {0}\n", rectangle_02);
+
+            Persona persona_01 = new Persona("OSW", "ALDO", -23);
+            Console.WriteLine(persona_01.ToString());
+
+            Persona persona_02 = new Persona("ABC", "DEF", 32);
+            Console.WriteLine(persona_02.Saludas());
 
             //int numero = int.Parse(Console.ReadLine());
             int numero = 10;
