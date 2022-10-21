@@ -8,6 +8,11 @@ namespace MyProject
 
         static void Main(string[] args)
         {
+
+            //From :: Fully Qualified Name 
+            AccessControl accessControl = new AccessControl();
+            accessControl.ExtraNameSpaces();
+            
             //Static
             Account.Bank = "Old Bank";
             Account.UpdateBank("New Bank");
