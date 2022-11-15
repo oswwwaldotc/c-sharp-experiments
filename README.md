@@ -1,12 +1,26 @@
 # .NET + C# :purple_circle:
 
-Aternative to Java okey?
+> Key features of C#
+>   - Modern
+>   - Cross-platform
+>   - Multi-paradigm
+>   - General purpose
+>   - Tooling
+>   - Documentation 
+
+
+## Alternative to Java okay?
+
+*Update: I really enjoy the journey to switch C#.*
 
 - First steps [here](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro)
 - See documentation [here](https://docs.microsoft.com/en-us/dotnet/csharp/)
-- [Udemy course](https://www.udemy.com/course/c-sharp-para-principiantes)
-- [YouTube guide](https://www.youtube.com/watch?v=xXd-44d_xgc)
-
+- [Udemy](https://www.udemy.com/course/c-sharp-para-principiantes) course
+- [YouTube](https://www.youtube.com/watch?v=xXd-44d_xgc) guide
+- [C# exercises](https://exercism.org/tracks/csharp/exercises) on Exercism
+- [Design Patterns](https://refactoring.guru/design-patterns) blog/book
+<!-- Software Design + Clean Code (Design Patterns + Refactoring) -->
+<!-- Coming soon -->
 
 ## Notes :pushpin:
 
