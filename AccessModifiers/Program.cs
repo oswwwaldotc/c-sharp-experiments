@@ -1,9 +1,4 @@
 ﻿using accessmodifiers_00;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace accessmodifiers
 {
@@ -11,6 +6,10 @@ namespace accessmodifiers
     {
         static void Main(string[] args)
         {
+            
+            string date_ = DateTime.UtcNow.ToString("yyyy-MM-dd hh:mm:ss");
+            Console.WriteLine("Using Codespaces :: my workspace in the cloud (GitHub) \n " + date_);
+            
             //Con diferente namespace
             OneMoreClass one = new();
 
