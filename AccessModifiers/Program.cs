@@ -15,6 +15,13 @@ namespace accessmodifiers
 
             one.PublicMethod();
             one.InternalMethod();
+
+            Console.WriteLine(" :::::::::::::::::::: \n ");
+            Arrays objectArray  = new();
+
+            objectArray.arraysMethod();
+            objectArray.exampleMethod();
+            objectArray.Excercise();
         }
     }
 }
