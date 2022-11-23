@@ -23,13 +23,13 @@ namespace HerencySection
         //Da a entender que se trata de la superclase (virtual)
         public virtual void SayHello()
         {
-            Console.WriteLine(" Hey, hello friend my name es {0}", Name);
+            Console.WriteLine(" Hey, hello friend my name is {0}", Name);
         }
 
         //Da a entender que se trata de la subclase (override)
         public override string ToString()
         {
-            return string.Format("{0} & {1} year old ", Name, Age);
+            return string.Format("{0} & {1} years old ", Name, Age);
         }
     }
 }

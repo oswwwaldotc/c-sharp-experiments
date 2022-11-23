@@ -24,6 +24,14 @@ namespace HerencySpace
             person02.ToString();
             person02.Working();
             Console.WriteLine(" \n " + person02);
+
+            Console.WriteLine();
+            Student person03 = new("Gerardo", 15, 7.8, "Highschool");
+            person03.SayHello();
+            person03.ToString();
+            person03.Study();
+            person03.GoToSchool();
+            Console.WriteLine(" \n " + person03);
         }
     }
 }

@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web_app_tutorial", "web_app
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "access_modifiers", "AccessModifiers\access_modifiers.csproj", "{03895510-DB88-441F-ABAD-AE133970755A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerencySection", "HerencySection\HerencySection.csproj", "{69130EB7-2B13-49BF-83A4-FAA7AFFD2796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerencySection", "HerencySection\HerencySection.csproj", "{69130EB7-2B13-49BF-83A4-FAA7AFFD2796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
