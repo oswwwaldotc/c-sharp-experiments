@@ -21,7 +21,8 @@ namespace accessmodifiers
 
             objectArray.arraysMethod();
             objectArray.exampleMethod();
-            objectArray.Excercise();
+            //objectArray.Excercise();
+            objectArray.Multidimensiones();
         }
     }
 }
