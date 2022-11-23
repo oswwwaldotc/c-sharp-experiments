@@ -33,5 +33,9 @@ namespace HerencySpace
             person03.GoToSchool();
             Console.WriteLine(" \n " + person03);
         }
+        /* La definición de un método abstracto termina en punto y coma (;)
+           por lo que no es posible agregar código dentro de él.
+           Todas las clases en C# heredan directa o indirectamente de la clase Object
+        */
     }
 }
