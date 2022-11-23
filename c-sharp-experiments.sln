@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "access_modifiers", "AccessM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HerencySection", "HerencySection\HerencySection.csproj", "{69130EB7-2B13-49BF-83A4-FAA7AFFD2796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{D5DF8D1C-CF44-4D42-A419-D66D67035A2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{69130EB7-2B13-49BF-83A4-FAA7AFFD2796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69130EB7-2B13-49BF-83A4-FAA7AFFD2796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69130EB7-2B13-49BF-83A4-FAA7AFFD2796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DF8D1C-CF44-4D42-A419-D66D67035A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DF8D1C-CF44-4D42-A419-D66D67035A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DF8D1C-CF44-4D42-A419-D66D67035A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DF8D1C-CF44-4D42-A419-D66D67035A2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
